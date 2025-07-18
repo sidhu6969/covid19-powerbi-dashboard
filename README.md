@@ -1,21 +1,18 @@
 # covid19-powerbi-dashboard
-global covid 19 visualization using powerbi
-# COVID-19 Power BI Dashboard
+# Global COVID-19 Power BI Dashboard
 
-## 📊 Project Overview
-I used a large COVID-19 dataset, split it into 5 structured tables using SQL, and imported them into Power BI to create a dynamic and insightful dashboard.
+## 📌 Project Overview
+This project analyzes a large COVID-19 dataset using SQL and presents insights through a Power BI dashboard.
 
-## 🔧 Steps:
-1. Cleaned and normalized the raw dataset using SQL
-2. Split into 5 tables: `Cases`, `Deaths`, `Vaccinations`, `Locations`, `Dates`
-3. Exported tables to Excel and imported into Power BI
-4. Built a dashboard with slicers, cards, and line graphs
+## 📂 Folder Structure
+- `data/`: Raw dataset and cleaned Excel sheets.
+- `sql/`: SQL queries used to extract insights.
+- `dashboard/`: Power BI dashboard file (.pbix).
 
-## 📎 Files:
-- `covidproject.pbix` – Main Power BI dashboard file
-- Screenshots folder (optional)
+## 🛠️ Process
+1. Extracted insights using SQL queries from the original COVID dataset.
+2. Exported the results into 5 Excel sheets.
+3. Designed an interactive Power BI dashboard using those Excel sheets.
 
-## 🧠 Key Insights:
-- Country-wise and location-wise trends
-- Vaccination vs death comparison
-- Time-based filters and slicers
+
+
