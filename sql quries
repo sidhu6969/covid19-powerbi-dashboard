@@ -1,0 +1,17 @@
+# Global COVID-19 Power BI Dashboard
+
+## 📌 Project Overview
+This project analyzes a large COVID-19 dataset using SQL and presents insights through a Power BI dashboard.
+
+## 📂 Folder Structure
+- `data/`: Raw dataset and cleaned Excel sheets.
+- `sql/`: SQL queries used to extract insights.
+- `dashboard/`: Power BI dashboard file (`.pbix`).
+
+
+## 🛠️ Process
+1. Extracted insights using SQL queries from the original COVID dataset.
+2. Exported results into 5 Excel sheets.
+3. Designed an interactive Power BI dashboard to visualize key trends.
+
+
